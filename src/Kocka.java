@@ -1,6 +1,5 @@
-public class Kocka {
-    private String rasa;
-    private float hmotnost;
+public class Kocka extends Zvire {
+
     private int pocetSnezenychRyb;
 
     Kocka(String rasa, float hmotnost, int pocetSnezenychRyb) {

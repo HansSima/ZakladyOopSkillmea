@@ -1,6 +1,4 @@
-public class Pes {
-    private String rasa;
-    private float hmotnost;
+public class Pes extends Zvire {
     private int pocetUlovenyKocek;
 
     Pes(String rasa, float hmotnost, int pocetUlovenychKocek){
