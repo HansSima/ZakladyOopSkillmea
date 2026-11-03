@@ -7,8 +7,6 @@ public class Pes extends Zvire {
         this.pocetUlovenyKocek = pocetUlovenychKocek;
     }
 
-    public void vydejZvuk(){
-        System.out.println("Haf");
-    }
+
 
 }
