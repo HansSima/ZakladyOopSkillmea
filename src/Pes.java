@@ -9,4 +9,8 @@ public class Pes {
         this.pocetUlovenyKocek = pocetUlovenychKocek;
     }
 
+    public void vydejZvuk(){
+        System.out.println("Haf");
+    }
+
 }
