@@ -1,11 +1,14 @@
 public class RodinnyDum {
-    int pocetOken;
-    int pocetDveri;
-    float rozloha;
-    String adresa;
+    private int pocetOken;
+    private int pocetDveri;
+    private float rozloha;
+    private String adresa;
 
-    RodinnyDum(){
-        System.out.println("Ahoj ja se zavolam pri vytvoreni noveho objektu");
+    RodinnyDum(int pocOken, int pocDveri, float roz, String adr){
+        pocetOken = pocOken;
+        pocetDveri = pocDveri;
+        rozloha = roz;
+        adresa = adr;
     }
 
     public float vypocetCenyDomu(float cenaZaMetrCtverecni){
@@ -13,7 +16,5 @@ public class RodinnyDum {
         System.out.println(cena);
         return cena;
     }
-
-
 
 }
