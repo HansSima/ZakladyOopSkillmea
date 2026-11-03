@@ -27,8 +27,11 @@ public class Main {
         micka.vydejZvuk();*/
 
         //Banka
+        Banka mBank = new Banka(10, 1000, 1f, 0);
+        System.out.println(mBank.vypocetSlozenehoUroku());
 
-
+        Banka fio = new Banka(10, 1000, 2f, 10);
+        System.out.println(fio.vypocetSlozenehoUroku());
 
     }
 }
