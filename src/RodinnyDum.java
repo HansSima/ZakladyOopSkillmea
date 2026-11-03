@@ -1,4 +1,5 @@
 public class RodinnyDum {
+
     private int pocetOken;
     private int pocetDveri;
     private float rozloha;
@@ -15,6 +16,16 @@ public class RodinnyDum {
         float cena = rozloha * cenaZaMetrCtverecni + pocetOken * 10000 + pocetDveri * 8000;
         System.out.println(cena);
         return cena;
+    }
+
+    //Pro cteni hodnoty tzv. getter
+    public int getPocetOken() {
+        return pocetOken;
+    }
+
+    //Pro prepsani hodnoty tzv. setter
+    public void setPocetOken(int pocetOken) {
+        this.pocetOken = pocetOken;
     }
 
 }
