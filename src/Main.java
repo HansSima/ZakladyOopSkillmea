@@ -23,7 +23,7 @@ public class Main {
         Pes alik = new Pes("Ovcak", 20, 5);
         alik.vydejZvuk();
 
-
+        Kocka micka = new Kocka("Britska", 8, 10);
 
     }
 }
