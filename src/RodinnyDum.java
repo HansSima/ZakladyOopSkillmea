@@ -1,8 +1,6 @@
 public class RodinnyDum {
 
     private int pocetOken;
-    private int pocetDveri;
-    private float rozloha;
     private String adresa;
 
     RodinnyDum(int pocetOken, int pocetDveri, float rozloha, String adresa){
