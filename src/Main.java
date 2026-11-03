@@ -15,6 +15,7 @@ public class Main {
         dumZajicu.pocetDveri = 8;
         float cenaDomuZajicu = dumZajicu.vypocetCenyDomu();
 
+        System.out.println(cenaDomuNovakovych + cenaDomuZajicu);
 
 
     }
