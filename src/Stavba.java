@@ -1,5 +1,5 @@
 public class Stavba {
-    private int pocetDveri;
-    private float rozloha;
+    public int pocetDveri;
+    public float rozloha;
 
 }

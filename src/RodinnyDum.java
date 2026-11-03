@@ -1,4 +1,4 @@
-public class RodinnyDum {
+public class RodinnyDum extends Stavba {
 
     private int pocetOken;
     private String adresa;

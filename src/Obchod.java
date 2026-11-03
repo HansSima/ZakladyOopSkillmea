@@ -1,4 +1,4 @@
-public class Obchod {
+public class Obchod extends Stavba {
 
     private int pocetPokladen;
 
