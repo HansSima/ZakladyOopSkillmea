@@ -26,5 +26,9 @@ public class Main {
         Kocka micka = new Kocka("Britska", 8, 10);
         micka.vydejZvuk();*/
 
+        //Banka
+
+
+
     }
 }
