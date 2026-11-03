@@ -4,8 +4,9 @@ public class RodinnyDum {
     float rozloha;
     String adresa;
 
-
-
+    RodinnyDum(){
+        System.out.println("Ahoj ja se zavolam pri vytvoreni noveho objektu");
+    }
 
     public float vypocetCenyDomu(float cenaZaMetrCtverecni){
         float cena = rozloha * cenaZaMetrCtverecni + pocetOken * 10000 + pocetDveri * 8000;
