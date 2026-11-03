@@ -17,8 +17,8 @@ public class Main {
 
         System.out.println(cenaDomuNovakovych + cenaDomuZajicu);*/
 
-        RodinnyDum dumVlkovych = new RodinnyDum();
-        dumVlkovych.pocetDveri = 5;
+        RodinnyDum dumVlkovych = new RodinnyDum(20, 5, 140f, "Podebradova");
+
 
 
     }
