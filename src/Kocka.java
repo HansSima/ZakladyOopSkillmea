@@ -8,4 +8,8 @@ public class Kocka extends Zvire {
         this.pocetSnezenychRyb = pocetSnezenychRyb;
     }
 
+    public void vydejZvuk(){
+        System.out.println("Mnau");
+    }
+
 }

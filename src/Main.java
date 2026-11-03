@@ -24,6 +24,7 @@ public class Main {
         alik.vydejZvuk();
 
         Kocka micka = new Kocka("Britska", 8, 10);
+        micka.vydejZvuk();
 
     }
 }
