@@ -18,7 +18,7 @@ public class Main {
         System.out.println(cenaDomuNovakovych + cenaDomuZajicu);*/
 
         RodinnyDum dumVlkovych = new RodinnyDum(20, 5, 140f, "Podebradova");
-
+        Obchod kaufland = new Obchod(10, 420f, 15);
 
 
     }
