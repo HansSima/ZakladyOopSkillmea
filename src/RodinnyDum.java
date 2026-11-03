@@ -5,11 +5,11 @@ public class RodinnyDum {
     private float rozloha;
     private String adresa;
 
-    RodinnyDum(int pocOken, int pocDveri, float roz, String adr){
-        pocetOken = pocOken;
-        pocetDveri = pocDveri;
-        rozloha = roz;
-        adresa = adr;
+    RodinnyDum(int pocetOken, int pocetDveri, float rozloha, String adresa){
+        this.pocetOken = pocetOken;
+        this.pocetDveri = pocetDveri;
+        this.rozloha = rozloha;
+        this.adresa = adresa;
     }
 
     public float vypocetCenyDomu(float cenaZaMetrCtverecni){
