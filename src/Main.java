@@ -20,11 +20,11 @@ public class Main {
         //RodinnyDum dumVlkovych = new RodinnyDum(20, 5, 140f, "Podebradova");
         //Obchod kaufland = new Obchod(10, 420f, 15);
 
-        Pes alik = new Pes("Ovcak", 20, 5);
+        /*Pes alik = new Pes("Ovcak", 20, 5);
         alik.vydejZvuk();
 
         Kocka micka = new Kocka("Britska", 8, 10);
-        micka.vydejZvuk();
+        micka.vydejZvuk();*/
 
     }
 }
