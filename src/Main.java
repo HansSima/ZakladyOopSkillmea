@@ -21,5 +21,6 @@ public class Main {
         //Obchod kaufland = new Obchod(10, 420f, 15);
 
 
+
     }
 }
